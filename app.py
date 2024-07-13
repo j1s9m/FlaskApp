@@ -3,8 +3,8 @@ from database import get_data
 
 app= Flask (__name__)
 
-@app.route('/')# Index page
-def index(): #Home page(Index)
+@app.route('/')
+def index(): 
     return render_template('index.html')
 
 
